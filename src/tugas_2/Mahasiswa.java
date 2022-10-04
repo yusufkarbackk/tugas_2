@@ -21,6 +21,22 @@ public class Mahasiswa extends Nilai{
         this.prodi = new Prodi(prodi);
     }
 
+    public int getNim() {
+        return nim;
+    }
+
+    public String getNama() {
+        return nama;
+    }
+
+    public String getTanggal_lahir() {
+        return tanggal_lahir;
+    }
+
+    public Prodi getProdi() {
+        return prodi;
+    }
+
     @Override
     public int absenHarian(int jumlah_absen_masuk) {
         return jumlah_absen_masuk;
